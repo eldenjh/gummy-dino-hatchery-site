@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gummy Dino Hatchery — Tap the Egg, Meet a Gummy Dinosaur</title>
+<meta name="description" content="A gentle 3D egg-hatching game for children aged 3 to 7. Tap a candy egg until it cracks, and out pops a glossy, wobbly gummy dinosaur to poke, tickle and squish. Works offline, no ads, collects nothing.">
+<link rel="canonical" href="https://eldenjh.github.io/gummy-dino-hatchery-site/">
+<meta name="color-scheme" content="light dark">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Gummy Dino Hatchery — tap the egg, meet a gummy dinosaur">
+<meta property="og:description" content="A gentle 3D egg-hatching game for young children. Works offline, no ads, collects nothing.">
+<meta property="og:image" content="https://eldenjh.github.io/gummy-dino-hatchery-site/img/hatched.jpg">
+<link rel="icon" href="img/icon.png">
+<link rel="apple-touch-icon" href="img/icon.png">
+<style>
+  :root{
+    --bg:#fff9f3; --surface:#ffffff; --ink:#3d2a23; --muted:#7a6259;
+    --accent:#c8306a; --accent-soft:#ffe8ef; --rule:#f0dfd4;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#181315; --surface:#211a1d; --ink:#f3e9e4; --muted:#bba79f;
+      --accent:#ff8fb1; --accent-soft:#3a2129; --rule:#3a2d31;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:17px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    padding:2.5rem 1.25rem 4rem;
+  }
+  main{max-width:46rem;margin:0 auto}
+  .top{display:flex;align-items:center;gap:1rem;margin:0 0 1.5rem}
+  .top img{width:72px;height:72px;border-radius:16px;box-shadow:0 4px 14px rgba(140,90,60,.18)}
+  .brand{font-size:.85rem;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:700;margin:0}
+  h1{font-size:clamp(1.9rem,6vw,2.7rem);line-height:1.15;margin:0 0 .8rem;letter-spacing:-.015em}
+  .lede{font-size:1.15rem;color:var(--muted);margin:0 0 1.2rem}
+  .soon{display:inline-block;background:var(--accent-soft);color:var(--accent);font-weight:700;border-radius:99px;padding:.45rem 1rem;margin:0 0 .5rem}
+  .sub{color:var(--muted);font-size:.92rem;margin:0 0 2rem}
+  .shots{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:0 0 2rem}
+  .shots figure{margin:0}
+  .shots img{display:block;width:100%;height:auto;border-radius:22px;border:1px solid var(--rule)}
+  .shots figcaption{font-size:.88rem;color:var(--muted);text-align:center;margin-top:.45rem}
+  h2{font-size:1.25rem;margin:2.5rem 0 .7rem}
+  p{margin:0 0 1rem}
+  ul{margin:0 0 1rem;padding-left:1.25rem}
+  li{margin:0 0 .45rem}
+  a{color:var(--accent)}
+  .card{background:var(--surface);border:1px solid var(--rule);border-radius:14px;padding:1rem 1.2rem;margin:0 0 1rem}
+  .card h3{margin:0 0 .3rem;font-size:1.02rem}
+  .card p{margin:0}
+  footer{margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--rule);color:var(--muted);font-size:.9rem}
+</style>
+<script>
+// Anonymous pageview count: site + path + day only. No cookies, no IP, no identifiers.
+try{fetch("https://site-stats.kidwatch.workers.dev/hit?s=dinohatchery&p="+encodeURIComponent(location.pathname)+"&r="+encodeURIComponent(document.referrer),{mode:"no-cors",keepalive:true}).catch(function(){})}catch(e){}
+</script>
+</head>
+<body>
+<main>
+
+<div class="top">
+  <img src="img/icon.png" alt="The Gummy Dino Hatchery app icon: a green gummy dinosaur">
+  <p class="brand">Gummy Dino Hatchery</p>
+</div>
+
+<h1>Tap the egg. Out pops a gummy dinosaur.</h1>
+<p class="lede">A gentle 3D egg-hatching game for children aged 3 to 7. Every egg cracks in its own way, and every dinosaur inside is a glossy, see-through, wobbly gummy sweet that loves to be poked, tickled and squished.</p>
+<p class="soon">Coming soon to the App Store</p>
+<p class="sub">iPhone &amp; iPad · iOS 16.4+ · Works offline · No ads, no accounts, no purchases</p>
+
+<div class="shots">
+  <figure><img src="img/egg.jpg" width="600" height="1304" alt="A speckled candy egg waiting to be tapped, with a little hand showing where to tap"><figcaption>Tap, tap, tap…</figcaption></figure>
+  <figure><img src="img/hatched.jpg" width="600" height="1304" alt="A green gummy dinosaur called Baby Rex has just hatched, with a NEW! sticker"><figcaption>…and meet Baby Rex!</figcaption></figure>
+</div>
+
+<h2>What's inside</h2>
+<div class="card"><h3>Eight candy eggs</h3><p>Meadow, jungle, frost, ember, golden, rainbow, spotted and a mystery egg. Each one needs a different number of taps, and the cracks grow with every tap until the shell bursts.</p></div>
+<div class="card"><h3>Twenty gummy dinosaurs</h3><p>From Common to Mythic: sugary, frosty, glowing, golden and rainbow gummies of six kinds of dinosaur, each with its own name.</p></div>
+<div class="card"><h3>My Nest</h3><p>Every dinosaur your child finds is kept in their nest. Tap one to bring it back and play: tickle it into a giggle dance, squish it and watch it jump, or tap the floor to make it hop over.</p></div>
+<div class="card"><h3>Made for little hands</h3><p>No timers, no losing, no reading needed. Soft sounds and gentle haptics, big friendly buttons, and a swipe in from the edge of the screen first only shows the system handle, so a child is less likely to leave the game by accident.</p></div>
+
+<h2>Privacy, stated plainly</h2>
+<ul>
+<li>The app <strong>never connects to the internet</strong>. Everything it needs is inside it.</li>
+<li>No account, no sign-in, no ads, no analytics, no tracking, no purchases, no links out of the app.</li>
+<li>It asks for no permissions — no camera, no microphone, no location.</li>
+<li>The dinosaur collection is saved only on your device. <a href="./privacy.html">Read the full privacy policy.</a></li>
+</ul>
+
+<footer>
+<p><a href="./support.html">Support</a> · <a href="./privacy.html">Privacy Policy</a> · <a href="mailto:eldenkamfei@gmail.com">eldenkamfei@gmail.com</a></p>
+</footer>
+
+</main>
+</body>
+</html>
